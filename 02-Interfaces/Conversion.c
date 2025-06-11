@@ -2,13 +2,13 @@
 #include <math.h>
 #include <stdbool.h>
 
-const double Tolerancia= 0.001;
-const double LimiteSuperiorF = 220;
-const double LimiteInferiorF = 0;
-const double LimiteSuperiorC = 110;
-const double LimiteInferiorC = -30;
-const double IncrementoF = 10;
-const double IncrementoC = 10;
+const double    Tolerancia= 0.001,
+                LimiteSuperiorF = 220,
+                LimiteInferiorF = 0,
+                LimiteSuperiorC = 110,
+                LimiteInferiorC = -30,
+                IncrementoF = 10,
+                IncrementoC = 10;
 
 
 double Celsius(double Fahrenheit){
